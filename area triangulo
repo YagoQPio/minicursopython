@@ -1,0 +1,7 @@
+a= int(input("valor da altura:"))
+print(a)
+b = int(input("valor da base:"))
+print(b)
+
+area = a*b/2
+print(area)
