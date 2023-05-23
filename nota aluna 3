@@ -1,0 +1,12 @@
+nota1 = float(input("Primeira nota do aulo?"))
+
+nota2 = float(input("Segunda nota do aluno"))
+
+nota3 = float(input("Terceira nota do aluno"))
+
+med = (nota1+nota2+nota3)/3
+if med >=7:
+     print("Aluno aprovado")
+
+else med <=6.99 :
+    print("Aluno reprovado")
