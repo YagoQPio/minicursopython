@@ -1,0 +1,6 @@
+nota = int(input("Qual é nota do aluno?"))
+print(nota)
+if nota >=5 :
+    print("Aluno aprovado")
+elif nota < 5:
+    print("Aluno reprovado")
