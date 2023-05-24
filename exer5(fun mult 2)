@@ -1,0 +1,9 @@
+def multde2(numero):
+    if numero % 2 == 0:
+        print(f"{numero} é múltiplo de 2.")
+    else:
+        print(f"{numero} não é múltiplo de 2.")
+
+
+numero = int(input("Digite um número: "))
+multde2(numero)
