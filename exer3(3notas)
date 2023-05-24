@@ -8,5 +8,5 @@ med = (nota1+nota2+nota3)/3
 if med >=7:
      print("Aluno aprovado")
 
-else med <=6.99 :
+elif med <=6.99 :
     print("Aluno reprovado")
