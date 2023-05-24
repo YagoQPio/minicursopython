@@ -1,0 +1,5 @@
+slr = float(input("Qual é o seu salario?"))
+fgts = slr * 0.08
+print(fgts)
+nvslr= slr-fgts
+print("Seu novo salario?",nvslr,)
