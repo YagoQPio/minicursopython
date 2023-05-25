@@ -1,0 +1,8 @@
+y = int(input("numero inteiro: "))
+for g in range(y):
+    h = int(input("Novo numero: "))
+    if h<=0:
+        h= 1
+        print(h)
+    else:
+        print(h)
