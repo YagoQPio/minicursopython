@@ -1,0 +1,7 @@
+a = int(input("Digite um numero inteiro e positivo:" ))
+
+if a <= 0:
+    print("O numero digitado deve ser positivo")
+else:
+    for a in range(a+1):
+        print(a)
