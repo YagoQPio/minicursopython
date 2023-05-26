@@ -1,0 +1,11 @@
+lista = [20, 40, 30, 10, 0]
+print("Lista atual:", lista)
+lista.sort()
+lista.reverse()
+print("Lista decrescente:", lista)
+VLRM = lista.pop(2)
+print("valor removido:", VLRM)
+print("Nova lista(com numero removido)", lista)
+lista.insert(4, 2)
+print("lista autalizada", lista)
+print("O tamanha da lista é: ", len(lista))
