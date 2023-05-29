@@ -1,0 +1,16 @@
+sn = 0
+qn = 0
+
+nota=0
+while nota != -1:
+    nota = int(input("Digite sua nota(-1 para para): "))
+
+    if nota != -1:
+        sn += nota
+        qn += 1
+
+    elif qn >0:
+        media = sn/qn
+        print("A media das notas é:",media)
+    else:
+        print("Nenhuma nota inserida")
