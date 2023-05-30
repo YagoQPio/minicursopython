@@ -1,0 +1,23 @@
+numeros =[]
+tn = 0
+soma = 0
+pares = 0
+
+quantidade = int(input("quantidades de numeros: "))
+
+for i in range(quantidade):
+    numero = int(input("Digite o valor so numero: "))
+    numeros.append(numero)
+    tn +=1
+    soma += numero
+    if numero % 2 == 0:
+        pares += 1
+
+media = soma / tn
+
+porcentagemPares = (pares*100)/tn
+
+print("A)Quantidade de elementos:",tn)
+print("B)Soma dos valores: ",soma)
+print("C)Media dos valores:", media)
+print(f"D)Porcentagem de numeros pares:", porcentagemPares)
