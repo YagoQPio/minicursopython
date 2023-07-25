@@ -1,0 +1,13 @@
+lista = [2,3,6,2,0,6,7,8]
+max = lista[0]
+min = lista[0]
+sm = 0
+for i in lista:
+    if i > max:
+        max = i
+    elif i < min:
+        min = i
+print("valor maximo é:",max,"Valor minimo é:",min)
+for y in lista:
+    sm += y
+print(sm)
